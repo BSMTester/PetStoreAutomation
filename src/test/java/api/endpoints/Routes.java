@@ -28,5 +28,9 @@ public class Routes {
     //Pet module
     		//Here you will create Pet module URL's
     
+    //BDD Routes
+    //# http://thomas-bayer.com/sqlrest/CUSTOMER/15/
+    public static String customer_get_url = "http://thomas-bayer.com/sqlrest/CUSTOMER/{id}";
+    
     
 }

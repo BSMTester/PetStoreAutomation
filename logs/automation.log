@@ -85,3 +85,52 @@
 20:13:13.135 [main] INFO  api.test.UserTests2 - ********** User updated ***************
 20:13:14.301 [main] INFO  api.test.UserTests2 - **********   Deleting User  ***************
 20:13:15.505 [main] INFO  api.test.UserTests2 - ********** User deleted ***************
+21:46:50.027 [main] DEBUG api.test.UserTests2 - debugging.....
+21:46:50.078 [main] INFO  api.test.UserTests2 - ********** Creating user  ***************
+21:46:57.485 [main] INFO  api.test.UserTests2 - **********User is creatged  ***************
+21:46:57.537 [main] INFO  api.test.UserTests2 - ********** Reading User Info ***************
+21:46:58.735 [main] INFO  api.test.UserTests2 - **********User info  is displayed ***************
+21:46:58.747 [main] INFO  api.test.UserTests2 - ********** Updating User ***************
+21:46:59.997 [main] INFO  api.test.UserTests2 - ********** User updated ***************
+21:47:01.154 [main] INFO  api.test.UserTests2 - **********   Deleting User  ***************
+21:47:02.286 [main] INFO  api.test.UserTests2 - ********** User deleted ***************
+09:37:49.402 [main] INFO  api.bdd_test.BddCustomerXMLResponceTests - ***********Reading customer info *********
+09:51:48.453 [main] INFO  api.bdd_test.BddCustomerXMLResponceTests - ***********Reading customer info *********
+09:54:48.731 [main] DEBUG api.test.UserTests - debugging.....
+09:54:48.771 [main] INFO  api.test.UserTests - ********** Creating user  ***************
+09:54:55.717 [main] INFO  api.test.UserTests - **********User is creatged  ***************
+09:54:55.736 [main] INFO  api.test.UserTests - ********** Reading User Info ***************
+09:54:57.104 [main] INFO  api.test.UserTests - **********User info  is displayed ***************
+09:54:57.111 [main] INFO  api.test.UserTests - ********** Updating User ***************
+09:54:58.349 [main] INFO  api.test.UserTests - ********** User updated ***************
+09:54:59.518 [main] INFO  api.test.UserTests - **********   Deleting User  ***************
+09:55:00.762 [main] INFO  api.test.UserTests - ********** User deleted ***************
+09:55:25.820 [main] INFO  api.bdd_test.BddCustomerXMLResponceTests - ***********Reading customer info *********
+10:04:34.072 [main] INFO  api.bdd_test.BddCustomerXMLResponceTests - ***********Reading customer info *********
+10:09:42.061 [main] INFO  api.bdd_test.BddCustomerXMLResponceTests - ***********Reading customer info *********
+10:13:58.760 [main] INFO  api.bdd_test.BddCustomerXMLResponceTests - ***********Reading customer info *********
+10:15:53.576 [main] INFO  api.bdd_test.BddCustomerXMLResponceTests - ***********Reading customer info *********
+10:19:56.707 [main] INFO  api.bdd_test.BddCustomerXMLResponceTests - ***********Reading customer info *********
+10:20:57.941 [main] INFO  api.bdd_test.BddCustomerXMLResponceTests - ***********Reading customer info *********
+10:23:41.423 [main] INFO  api.bdd_test.BddCustomerXMLResponceTests - ***********Reading customer info *********
+10:24:50.895 [main] INFO  api.bdd_test.BddCustomerXMLResponceTests - ***********Reading customer info *********
+10:25:48.268 [main] INFO  api.bdd_test.BddCustomerXMLResponceTests - ***********Reading customer info *********
+10:38:14.409 [main] INFO  api.bdd_test.BddCustomerXMLResponceTests - ***********Reading customer info *********
+10:46:36.356 [main] INFO  api.bdd_test.BddCustomerXMLResponceTests - ***********Reading customer info *********
+10:49:54.131 [main] INFO  api.bdd_test.BddCustomerXMLResponceTests - ***********Reading customer info *********
+11:00:20.958 [main] INFO  api.bdd_test.BddCustomerXMLResponceTests - ***********Reading customer info *********
+11:03:22.583 [main] INFO  api.bdd_test.BddCustomerXMLResponceTests - ***********Reading customer info *********
+11:17:47.456 [main] INFO  api.bdd_test.BddCustomerXMLResponceTests - ***********Reading customer info *********
+11:19:00.501 [main] INFO  api.bdd_test.BddCustomerXMLResponceTests - ***********Reading customer info *********
+11:28:37.122 [main] INFO  api.bdd_test.BddCustomerXMLResponceTests - ***********Reading customer info *********
+11:33:15.459 [main] INFO  api.bdd_test.BddCustomerXMLResponceTests - ***********Reading customer info *********
+11:34:13.500 [main] INFO  api.bdd_test.BddCustomerXMLResponceTests - ***********Reading customer info *********
+11:39:29.393 [main] INFO  api.bdd_test.BddCustomerXMLResponceTests - ***********Reading customer info *********
+11:41:45.899 [main] INFO  api.bdd_test.BddCustomerXMLResponceTests - ***********Reading customer info *********
+12:25:00.574 [main] INFO  api.bdd_test.BddCustomerXMLResponceTests - ***********Reading customer info *********
+12:51:34.846 [main] INFO  api.bdd_test.BddCustomerXMLResponceTests - ***********Reading customer info *********
+12:52:29.179 [main] INFO  api.bdd_test.BddCustomerXMLResponceTests - ***********Reading customer info *********
+12:53:44.872 [main] INFO  api.bdd_test.BddCustomerXMLResponceTests - ***********Reading customer info *********
+12:54:33.054 [main] INFO  api.bdd_test.BddCustomerXMLResponceTests - ***********Reading customer info *********
+13:04:00.622 [main] INFO  api.bdd_test.BddCustomerXMLResponceTests - ***********Reading customer info *********
+13:07:12.430 [main] INFO  api.bdd_test.BddCustomerXMLResponceTests - ***********Reading customer info *********
