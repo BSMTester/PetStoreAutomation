@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="api.bdd_test.BddCustomerXMLResponceTests">
+      <class name="api.gorest.test.testXMLResponse">
         <methods>
-          <include name="testMultipleContentOneGo"/>
           <include name="setup"/>
+          <include name="testSingleContent"/>
         </methods>
-      </class> <!-- api.bdd_test.BddCustomerXMLResponceTests -->
+      </class> <!-- api.gorest.test.testXMLResponse -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

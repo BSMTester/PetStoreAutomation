@@ -12,6 +12,7 @@ Delete user (Delete) : https://petstore.swagger.io/v2/user/{username}
 
 public class Routes {
 
+	//*********** JSon Format Swagger doc **************
 	public static String base_url="https://petstore.swagger.io/v2" ;
 	
 	//User module
@@ -28,9 +29,9 @@ public class Routes {
     //Pet module
     		//Here you will create Pet module URL's
     
+    //************XML Format*************
     //BDD Routes
     //# http://thomas-bayer.com/sqlrest/CUSTOMER/15/
     public static String customer_get_url = "http://thomas-bayer.com/sqlrest/CUSTOMER/{id}";
-    
     
 }

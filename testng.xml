@@ -11,7 +11,8 @@
       <!-- <class name="api.test.UserTests"/>  -->
      <!--  <class name="api.test.UserTests2"/>
       <class name="api.test.DDTests"/>   -->
-     	<class name = "api.bdd_test.BddCustomerXMLResponceTests"/>
+     	<class name = "api.gorest.test.testJsonResponse"/>
+     	<class name = "api.gorest.test.testXMLResponse"/>
     </classes>
   </test> <!-- PetTests -->
 </suite> <!-- PetSuite -->
