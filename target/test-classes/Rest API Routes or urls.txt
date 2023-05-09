@@ -1,0 +1,21 @@
+***************Json to Json Sceama Converter***********
+https://transform.tools/json-to-json-schema
+
+*********txt file to Json file formator *************
+https://mconverter.eu/convert/txt/json/
+
+************Json Format************
+https://dummyjson.com/products/
+https://gorest.co.in/public/v2/users/
+
+************Json Format Swagger doc************
+https://petstore.swagger.io/v2/
+
+*******Json editor online*****
+https://jsoneditoronline.org/
+
+
+*****************XML Format**********************
+http://thomas-bayer.com/sqlrest/CUSTOMER/
+
+http://restapi.adequateshop.com/api/Traveler?page=1

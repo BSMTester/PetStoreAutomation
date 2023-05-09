@@ -10,9 +10,11 @@
     <classes>
       <!-- <class name="api.test.UserTests"/>  -->
      <!--  <class name="api.test.UserTests2"/>
-      <class name="api.test.DDTests"/>   -->
+      <class name="api.test.DDTests"/>   
      	<class name = "api.gorest.test.testJsonResponse"/>
-     	<class name = "api.gorest.test.testXMLResponse"/>
+     	<class name = "api.gorest.test.testXMLResponse"/> -->
+     	<class name = "api.training.test.testUserDetails"/>
+     	
     </classes>
   </test> <!-- PetTests -->
 </suite> <!-- PetSuite -->

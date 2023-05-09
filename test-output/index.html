@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,17 +104,12 @@
                     <div class="method-list-content passed suite-PetSuite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-PetSuite" title="api.gorest.test.testJsonResponse" class="method navigator-link" hash-for-method="testGorestData">testGorestData</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-PetSuite" title="api.training.test.testUserDetails" class="method navigator-link" hash-for-method="testResponseUserData">testResponseUserData</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-PetSuite" title="api.gorest.test.testXMLResponse" class="method navigator-link" hash-for-method="testInvoceData">testInvoceData</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-PetSuite" title="api.gorest.test.testXMLResponse" class="method navigator-link" hash-for-method="testSingleContent">testSingleContent</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-PetSuite" title="api.training.test.testUserDetails" class="method navigator-link" hash-for-method="testUserData">testUserData</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-PetSuite -->
@@ -132,36 +127,21 @@
           <div class="suite-PetSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">api.gorest.test.testJsonResponse</span>
+              <span class="class-name">api.training.test.testUserDetails</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testGorestData">
-                  </a> <!-- testGorestData -->
-                  <span class="method-name">testGorestData</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-PetSuite-class-passed -->
-          <div class="suite-PetSuite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">api.gorest.test.testXMLResponse</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testInvoceData">
-                  </a> <!-- testInvoceData -->
-                  <span class="method-name">testInvoceData</span>
+                  <a name="testResponseUserData">
+                  </a> <!-- testResponseUserData -->
+                  <span class="method-name">testResponseUserData</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testSingleContent">
-                  </a> <!-- testSingleContent -->
-                  <span class="method-name">testSingleContent</span>
+                  <a name="testUserData">
+                  </a> <!-- testUserData -->
+                  <span class="method-name">testUserData</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -181,8 +161,7 @@
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;PetTests&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;api.gorest.test.testJsonResponse&quot;/&gt;
-      &lt;class name=&quot;api.gorest.test.testXMLResponse&quot;/&gt;
+      &lt;class name=&quot;api.training.test.testUserDetails&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- PetTests --&gt;
 &lt;/suite&gt; &lt;!-- PetSuite --&gt;
@@ -196,7 +175,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">PetTests (2 classes)</span>
+                <span class="test-name">PetTests (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -222,24 +201,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testGorestData')
-data.setCell(0, 2, 'api.gorest.test.testJsonResponse')
-data.setCell(0, 3, 8051);
+data.setCell(0, 1, 'testUserData')
+data.setCell(0, 2, 'api.training.test.testUserDetails')
+data.setCell(0, 3, 3600);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testSingleContent')
-data.setCell(1, 2, 'api.gorest.test.testXMLResponse')
-data.setCell(1, 3, 1875);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testInvoceData')
-data.setCell(2, 2, 'api.gorest.test.testXMLResponse')
-data.setCell(2, 3, 477);
+data.setCell(1, 1, 'testResponseUserData')
+data.setCell(1, 2, 'api.training.test.testUserDetails')
+data.setCell(1, 3, 2714);
 window.suiteTableData['PetSuite']= { tableData: data, tableDiv: 'times-div-PetSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 10 seconds</span>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
               <div id="times-div-PetSuite">
               </div> <!-- times-div-PetSuite -->
             </div> <!-- times-div -->
@@ -265,29 +240,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">api.gorest.test.testJsonResponse</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">api.training.test.testUserDetails</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">testGorestData</span>
-                <span class="method-start">69 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">api.gorest.test.testXMLResponse</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">setup</span>
-                <span class="method-start">8176 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">testSingleContent</span>
-                <span class="method-start">8205 ms</span>
+                <span class="method-name">testUserData</span>
+                <span class="method-start">46 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">testInvoceData</span>
-                <span class="method-start">10085 ms</span>
+                <span class="method-name">testResponseUserData</span>
+                <span class="method-start">3672 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
