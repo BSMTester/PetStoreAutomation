@@ -1,5 +1,6 @@
 package api.training.test;
 
+import org.json.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -7,7 +8,6 @@ import org.testng.annotations.Test;
 //import api.gorest.endpoints.userEndPoints;
 import api.training.endpoints.userendpoits;
 import api.training.payloads.reqres_users;
-
 import io.restassured.module.jsv.JsonSchemaValidator;
 import io.restassured.response.Response;
 
@@ -57,7 +57,24 @@ public class testUserDetails {
 		//************** https://mconverter.eu/convert/txt/json/ *******
 		res.then().assertThat().body(JsonSchemaValidator.matchesJsonSchemaInClasspath("JSON Schema.json"));
 		// (or)
-		res.then().body(JsonSchemaValidator.matchesJsonSchemaInClasspath("JSON Schema.json"));
+		res.then().body(JsonSchemaValidator.matchesJsonSchemaInClasspath("JSON Schema.json"));	
+	}
+	
+	
+	@Test(priority = 3)
+	public void testGetJsonfieldData() {
+		
+	//*********** get the particular field data from response body
+		Response res1 = userendpoits.reqres_getUser(this.reqres_payload.getPage());
+		JSONObject jo = new JSONObject(res1.asString());
+		
+		for(int i=0;i<jo.length();i++) {
+			
+			String user_first_name = jo.getJSONArray("data").getJSONObject(i).get("first_name").toString();
+			System.out.println(user_first_name);
+		}
+		
+		System.out.println("\n");		
 	}
 }
 

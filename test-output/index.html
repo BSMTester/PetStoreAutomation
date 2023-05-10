@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,6 +102,11 @@
                       <a href="#" panel-name="suite-PetSuite" class="show-methods passed suite-PetSuite"> (show)</a> <!-- show-methods passed suite-PetSuite -->
                     </span>
                     <div class="method-list-content passed suite-PetSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetSuite" title="api.training.test.testUserDetails" class="method navigator-link" hash-for-method="testGetJsonfieldData">testGetJsonfieldData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-PetSuite" title="api.training.test.testUserDetails" class="method navigator-link" hash-for-method="testResponseUserData">testResponseUserData</a> <!-- method navigator-link -->
@@ -130,6 +135,13 @@
               <span class="class-name">api.training.test.testUserDetails</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetJsonfieldData">
+                  </a> <!-- testGetJsonfieldData -->
+                  <span class="method-name">testGetJsonfieldData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="testResponseUserData">
@@ -201,20 +213,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testUserData')
 data.setCell(0, 2, 'api.training.test.testUserDetails')
-data.setCell(0, 3, 3600);
+data.setCell(0, 3, 7627);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testResponseUserData')
 data.setCell(1, 2, 'api.training.test.testUserDetails')
-data.setCell(1, 3, 2714);
+data.setCell(1, 3, 7027);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testGetJsonfieldData')
+data.setCell(2, 2, 'api.training.test.testUserDetails')
+data.setCell(2, 3, 2465);
 window.suiteTableData['PetSuite']= { tableData: data, tableDiv: 'times-div-PetSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <span class="suite-total-time">Total running time: 17 seconds</span>
               <div id="times-div-PetSuite">
               </div> <!-- times-div-PetSuite -->
             </div> <!-- times-div -->
@@ -247,11 +263,15 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">testUserData</span>
-                <span class="method-start">46 ms</span>
+                <span class="method-start">49 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testResponseUserData</span>
-                <span class="method-start">3672 ms</span>
+                <span class="method-start">7735 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetJsonfieldData</span>
+                <span class="method-start">14766 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

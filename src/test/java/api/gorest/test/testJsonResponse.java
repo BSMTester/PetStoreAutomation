@@ -39,8 +39,11 @@ public class testJsonResponse {
 		Response response = userEndPoints.readGorestData();
 		//response.then().log().all();
 		
-	 //	JSONObject jo = new JSONObject(response.asString()); if JSON Data is in JSON Object 
-	 	JSONArray ja = new JSONArray(response.asString()); // if JSON Data is in JSON Array
+	//*******if JSON Data is in JSON Object*****
+	 //	JSONObject jo = new JSONObject(response.asString());  
+	
+		// if JSON Data is in JSON Array
+		JSONArray ja = new JSONArray(response.asString()); 
 	 	
 	 	System.out.println("\n***** User Names of GoRestUser *****");
 	 	
