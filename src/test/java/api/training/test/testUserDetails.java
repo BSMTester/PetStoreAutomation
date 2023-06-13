@@ -26,7 +26,7 @@ public class testUserDetails {
 	@Test(priority = 1)
 	public void testUserData() {
 		Response res = userendpoits.reqres_getUser(this.reqres_payload.getPage());
-	//	res.then().log().all();
+		res.then().log().all();
 		Assert.assertEquals(res.getStatusCode(), 200);
 		Assert.assertEquals(res.getStatusLine(), "HTTP/1.1 200 OK");
 		Assert.assertEquals(res.getHeader("Content-Type"), "application/json; charset=utf-8");

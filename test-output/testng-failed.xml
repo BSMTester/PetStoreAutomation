@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="api.training.test.testUserDetails">
+      <class name="api.bookstore.tests.N_Enter_wrong_enpoint">
         <methods>
-          <include name="getJsonfieldData"/>
-          <include name="setup"/>
+          <include name="test_EnterWrongEndpoint"/>
         </methods>
-      </class> <!-- api.training.test.testUserDetails -->
+      </class> <!-- api.bookstore.tests.N_Enter_wrong_enpoint -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -98,6 +98,4 @@ public class UserTests {
 		
 		logger.info("********** User deleted ***************");
 	}
-	
-	
 }

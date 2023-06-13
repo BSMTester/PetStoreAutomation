@@ -29,8 +29,8 @@ public class UserEndPoints {
 		{
 			Response response=given()
 							.pathParam("username",userName)
-			.when()
-				.get(Routes.get_url);
+						.when()
+							.get(Routes.get_url);
 				
 			return response;
 		}
@@ -54,8 +54,9 @@ public class UserEndPoints {
 		{
 			Response response=given()
 							.pathParam("username",userName)
-			.when()
-				.delete(Routes.delete_url);
+						
+						.when()
+							.delete(Routes.delete_url);
 				
 			return response;
 		}	

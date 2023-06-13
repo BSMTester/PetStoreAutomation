@@ -33,7 +33,7 @@ public class testXMLResponse {
 		String Id = response.xmlPath().get("INVOICE.ID");
 		Assert.assertEquals(Id, "14");
 		Assert.assertEquals(response.xmlPath().get("INVOICE.TOTAL"), "4940.40");
-		response.then().log().all();
+		response.then().log().all(); 
 	}
 	
 	@Test(priority=2)

@@ -6,12 +6,12 @@
   </listeners>
   <test thread-count="5" name="PetTests(failed)">
     <classes>
-      <class name="api.gorest.test.testJsonResponse">
+      <class name="api.training.test.testPutRequestByPOJOClass">
         <methods>
           <include name="setup"/>
-          <include name="testSingleContent"/>
+          <include name="testputRequestpojo" invocation-numbers="0"/>
         </methods>
-      </class> <!-- api.gorest.test.testJsonResponse -->
+      </class> <!-- api.training.test.testPutRequestByPOJOClass -->
     </classes>
   </test> <!-- PetTests(failed) -->
 </suite> <!-- Failed suite [PetSuite] -->

@@ -13,6 +13,7 @@ import io.restassured.response.Response;
 public class testJsonResponse {
 	
 	gorestUser userPayload;
+	Response response;
 	
 	@BeforeClass
 	public void setup() {
@@ -24,7 +25,7 @@ public class testJsonResponse {
    // @Test(priority=1)
 	public void testSingleContent() {
 		
-		Response response = userEndPoints.readGorestUser(this.userPayload.getId());
+		response = userEndPoints.readGorestUser(this.userPayload.getId());
 		response.then().log().all();
 		response.then().statusCode(200);
 		Assert.assertEquals(response.getStatusCode(), 200);
